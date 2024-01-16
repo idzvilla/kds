@@ -1,0 +1,80 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  .page-wrap {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F5F5F5;
+  }
+  
+  .content-wrap {
+    display: flex;
+    max-width: 344px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+    background: #FFF;
+  }
+  
+  .text-c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  h3 {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Headings/H4/Bold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+  }
+  
+  p {
+    color: #000;
+    /* Body/B1-24 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  
+.button {
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #00AD64;
+    border: none;
+    cursor: pointer;
+    /*Font Settings */
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    transition: ease-in-out 150ms;
+  }
+
+.button:hover {
+    background-color: #009A59;
+  }
+
+.button:active {
+    background-color: #008950;
+  }
